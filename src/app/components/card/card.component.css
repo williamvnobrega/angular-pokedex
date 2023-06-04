@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,500;1,700&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+}
+.card-container{
+    border: 1px solid black;
+    width: 250px;
+    height:430px;
+    margin-top: 20px;
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    display:flex;
+    flex-direction: column;
+    background-color: #232323;
+    border-radius: 10px;
+}
+.input{
+    margin-top: 10px;
+    position: absolute;
+    top: 17%;
+    left: 40%;
+    width: 240px;
+    border-radius: 5px;
+}
+.card_stats_type{
+    background-color: blue;
+}
+.card_title{
+    margin-left: auto;
+    margin-right: auto;
+}
+.card_title > h1{
+    color:#ffffff;
+    
+}
+
+.card_body{
+    background-color: #616161;
+    width: 90%;
+    position: absolute;
+    top:15%;
+    left: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+}
+
+.card_body > img{
+    position: absolute;
+    top: 25%;
+    left:8%;
+    width: 200px;
+}
+.card_stats{
+    padding-top:10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.card_title, .card_stats_type{
+    text-transform:capitalize;
+}
+.card_stats_type{
+    color:#e9e9e9;
+    font-weight: bolder;
+    background-color: #919191;
+    position: absolute;
+    top:90%;
+    padding:5px;
+    border-radius: 5px;
+}
+
